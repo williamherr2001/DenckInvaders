@@ -4,12 +4,12 @@ import java.awt.Toolkit;
 import java.awt.image.ImageObserver;
 public class enemy {
 	
-	double x;
+	public double x;
 	static double y;
 	static double vx=10;
 	int index;
 	public static int maxSize = 12;
-	public static Image bug =Toolkit.getDefaultToolkit().createImage("invader2.jpg");
+	public static Image bug =Toolkit.getDefaultToolkit().createImage("invader.jpg");
 	public enemy(int x, int y, int size) {
 		this.x = x;
 		enemy.y = y;
